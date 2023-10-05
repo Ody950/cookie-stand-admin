@@ -7,6 +7,7 @@ const CustomCookieStandForm = () => {
             <label htmlFor="location" className="block text-sm text-gray-700">
               Location
             </label>
+            
             <input
               type="text"
               id="location"
