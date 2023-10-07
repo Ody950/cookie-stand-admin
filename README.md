@@ -5,6 +5,16 @@
 ![Image](./public/lab37.jpg)
 
 
+
+
+# Lab 38
+
+Using Next.js, the Cookie Stand Admin App is styled using Tailwind CSS. In this application, users can manage and view data about cookie stands, including location information, hourly sales, and total sales.
+
+![Image](./public/lab38.jpg)
+
+
+
 ## Getting Started
 
 First, run the development server:
@@ -39,3 +49,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+

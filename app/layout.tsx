@@ -1,7 +1,7 @@
 import './globals.css'
 
-import Header from '../app/Components/Header';
-import Footer from '../app/Components/Footer';
+
+import Ind from '../app/pages/Index';
 
 import { Inter } from 'next/font/google'
 
@@ -13,17 +13,14 @@ export const metadata = {
 }
 
 
-export default function RootLayout({ children }) {
+export default function RootLayout() {
   return (
     <html lang="en">
       <body className={inter.className}>
-        
-      <Header/>
-        {children}
-        
-        <Footer/>
-        
-        </body>
+
+       <Ind/>
+
+      </body>
     </html>
   )
 }
