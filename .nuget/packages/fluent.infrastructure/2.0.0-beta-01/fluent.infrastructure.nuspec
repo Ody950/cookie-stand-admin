@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Fluent.Infrastructure</id>
+    <version>2.0.0-beta-01</version>
+    <title>Fluent Infrastructure</title>
+    <authors>Marcelo Vieira de Souza</authors>
+    <owners>Marcelo Vieira de Souza</owners>
+    <projectUrl>https://github.com/dn32/Fluent.Infrastructure.Doc/wiki</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/dn32/Fluent.Infrastructure.Doc/master/Docs/logo/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Fluent.Infrastructure is an infrastructure that unites Controller, Service, Repository, Validation and automation integration testing with the aim of accelerating the development of organized systems, causing major operations become simple and quick to implement.
+Cache control and logic exclusion are supported simply.
+Find, Add, Update and Remove are the basic operations that do not require addition to files to run on your system.</description>
+    <releaseNotes>Improvements and fixes</releaseNotes>
+    <copyright>Copyright 2016© dn32 Applications</copyright>
+    <language>es-US</language>
+    <tags>Fluent.Infrastructure is an unites Controller Service Repository Validation and automation integration testing with the aim of accelerating development organized systems causing major operations become simple quick to implement.</tags>
+    <dependencies>
+      <dependency id="AutoMapper" version="4.2.1" />
+      <dependency id="Castle.Core" version="3.3.3" />
+      <dependency id="Microsoft.AspNet.Identity.EntityFramework" version="2.2.1" />
+      <dependency id="Microsoft.AspNet.Identity.Owin" version="2.2.1" />
+      <dependency id="Microsoft.AspNet.Mvc" version="5.2.3" />
+      <dependency id="Microsoft.Owin.Host.SystemWeb" version="3.0.1" />
+      <dependency id="Microsoft.Owin.Security.Facebook" version="3.0.1" />
+      <dependency id="Microsoft.Owin.Security.Google" version="3.0.1" />
+      <dependency id="Microsoft.Owin.Security.MicrosoftAccount" version="3.0.1" />
+      <dependency id="Microsoft.Owin.Security.Twitter" version="3.0.1" />
+      <dependency id="WebActivatorEx" version="2.1.0" />
+      <dependency id="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" version="1.0.1" />
+    </dependencies>
+  </metadata>
+</package>
