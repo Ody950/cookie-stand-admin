@@ -1,18 +1,38 @@
 "use client"
 
-import React from 'react';
-import CookieStandAdmin from '../Components/CookieStandForm';
+import React, { useState } from 'react';
+import LoginForm from '../Components/LoginForm';
+import CookieStandForm from '../Components/CookieStandForm';
 
+const Home = () => {
+  const [loggedIn, setLoggedIn] = useState(false);
 
-function Index() {
-  return (
-    <>
-       <main className="h-full bg-orange-200 ">
-     <CookieStandAdmin/>
+  const handleLogin = (username, password) => {
+
+    const mockUser = {
+      username: 'admin',
+      password: 'password',
+    };
+
     
-    </main>
-    </>
-  );
-}
+    if (username === mockUser.username && password === mockUser.password) {
+      
+      setLoggedIn(true);
+    } else {
+    
+      console.log('Authentication failed');
+    }
+  };
 
-export default Index;
+  return (
+    <div>
+      {loggedIn ? (
+        <CookieStandForm />
+      ) : (
+        <LoginForm onLogin={handleLogin} />
+      )}
+    </div>
+  );
+};
+
+export default Home;

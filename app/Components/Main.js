@@ -1,15 +1,20 @@
-
 import React from 'react';
-import CreateForm from './CreateForm';
 import ReportTable from './ReportTable';
+import CreateForm from './CreateForm';
 
-function Main({ onCreate, hours, reports }) {
-  return (
-    <>
-      <CreateForm onCreate={onCreate} />
-      <ReportTable hours={hours} reports={reports} />
-    </>
-  );
-}
+const Main = ({ onCreate, hours, reports, onDelete, loading }) => (
+  <main className="p-4">
+    <h1 className="text-3xl font-semibold text-center text-stone-900">
+    Cookie Stand
+    </h1>
+    <CreateForm onCreate={onCreate} />
+    <ReportTable
+      hours={hours}
+      reports={reports}
+      onDelete={onDelete}
+      loading={loading}
+    />
+  </main>
+);
 
 export default Main;
